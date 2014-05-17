@@ -45,6 +45,11 @@
             <laterscripts>
                 <class>Megentoo_LaterScripts_Block</class>
             </laterscripts>
+            <page>
+                <rewrite>
+                    <html_head>Megentoo_LaterScripts_Block_Html_Head</html_head>
+                </rewrite>
+            </page>
         </blocks>
 
         <helpers>
@@ -53,7 +58,9 @@
             </laterscripts>
         </helpers>
     </global>
+
     <frontend>
+
         <events>
             <core_block_abstract_to_html_before>
                 <observers>
