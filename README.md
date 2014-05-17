@@ -36,10 +36,3 @@ if (Mage::getURL('checkout/onepage') == Mage::helper('core/url')->getCurrentUrl(
 
 ### Configuration
 A new section will show up in System -> Configuration -> Design called ```HTML Later Scripts``` where you can enable the extension and turn on debugging.
-
-### Notes
-Original Author:
-https://github.com/ngocanh/megentoo-later-scripts
-
-Pull Request:
-https://github.com/ngocanh/megentoo-later-scripts/pull/1
