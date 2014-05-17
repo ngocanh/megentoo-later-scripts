@@ -1,0 +1,4 @@
+build/app/code/community/Megentoo/LaterScripts app/code/community/Megentoo/LaterScripts
+build/app/design/frontend/base/default/template/page/html/footer_scripts.phtml app/design/frontend/base/default/template/page/html/footer_scripts.phtml
+build/app/design/frontend/base/default/template/page/html/head_script_less.phtml app/design/frontend/base/default/template/page/html/head_script_less.phtml
+build/app/etc/modules/Megentoo_LaterScripts.xml app/etc/modules/Megentoo_LaterScripts.xml
