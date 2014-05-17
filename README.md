@@ -9,7 +9,7 @@ It extracts all Magento inline JS placing it in the footer of your store:
 ```
 app/design/frontend/base/default/template/page/html/footer_scripts.phtml
 ```
-It rewrites Mage_Page_Block_Html_Head adding new paramater to getCssJsHtml() function to specify the $load_type (css/js).
+It rewrites ```Mage_Page_Block_Html_Head``` adding new paramater to ```getCssJsHtml()``` function to specify the ```$load_type``` (css/js).
 ```php
 // in footer_scripts.phtml
 echo $this->getCssJsHtml('js') 
@@ -40,5 +40,6 @@ A new section will show up in System -> Configuration -> Design called ```HTML L
 ### Notes
 Original Author:
 https://github.com/ngocanh/megentoo-later-scripts
+
 Pull Request:
 https://github.com/ngocanh/megentoo-later-scripts/pull/1
