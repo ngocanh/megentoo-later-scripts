@@ -6,7 +6,9 @@ This Magento extension is an experimental implementation. It listens to the foll
 * core_block_abstract_to_html_after
 
 It extracts all Magento inline JS placing it in the footer of your store:
-```app/design/frontend/base/default/template/page/html/footer_scripts.phtml```
+```
+app/design/frontend/base/default/template/page/html/footer_scripts.phtml
+```
 
 It rewrites Mage_Page_Block_Html_Head adding new paramater to getCssJsHtml() function to specify the $load_type (css/js).
 
@@ -14,6 +16,7 @@ It rewrites Mage_Page_Block_Html_Head adding new paramater to getCssJsHtml() fun
 // in footer_scripts.phtml
 echo $this->getCssJsHtml('js') 
 ```
+
 It keeps all Magento CSS in the head:
 ```app/design/frontend/base/default/template/page/html/head_script_less.phtml```
 
