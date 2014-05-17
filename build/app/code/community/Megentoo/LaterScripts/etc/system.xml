@@ -33,7 +33,7 @@
         <design>
             <groups>
                 <laterscripts module="laterscripts">
-                    <label><![CDATA[HTML <i>Later Scrips</i>]]></label>
+                    <label><![CDATA[HTML <i>Later Scripts</i>]]></label>
                     <frontend_type>text</frontend_type>
                     <sort_order>30</sort_order>
                     <show_in_default>1</show_in_default>
