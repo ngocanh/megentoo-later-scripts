@@ -93,13 +93,6 @@ class Megentoo_LaterScripts_Helper_Data extends Mage_Core_Helper_Abstract
      */
     public function isEnabled()
     {
-
-        // dont use footer js on checkout pages
-        if (Mage::getURL('checkout/onepage') == Mage::helper('core/url')->getCurrentUrl()) {
-            return false;
-        } else {
-            return Mage::getStoreConfigFlag(self::XML_PATH_LATERSCRIPTS_ENABLE);
-        }
-
+        return Mage::getStoreConfigFlag(self::XML_PATH_LATERSCRIPTS_ENABLE);
     }
 }

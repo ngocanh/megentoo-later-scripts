@@ -44,11 +44,10 @@
 </script>
 <![endif]-->
 
-
+<?php echo $this->getCssJsHtml() ?>
+<?php echo $this->getChildHtml() ?>
 <?php echo $this->helper('core/js')->getTranslatorScript() ?>
 <?php echo $this->getIncludes() ?>
-
-<?php echo $this->getCssJsHtml('js') ?>
 
 <script type="text/javascript">
 <?php foreach (Mage::helper('laterscripts')->getHtmlFilter()->getInlineJs() as $_blockName => $_scripts): ?>
