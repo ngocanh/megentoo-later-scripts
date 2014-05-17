@@ -9,16 +9,15 @@ It extracts all Magento inline JS placing it in the footer of your store:
 ```
 app/design/frontend/base/default/template/page/html/footer_scripts.phtml
 ```
-
 It rewrites Mage_Page_Block_Html_Head adding new paramater to getCssJsHtml() function to specify the $load_type (css/js).
-
 ```php
 // in footer_scripts.phtml
 echo $this->getCssJsHtml('js') 
 ```
-
 It keeps all Magento CSS in the head:
-```app/design/frontend/base/default/template/page/html/head_script_less.phtml```
+```
+app/design/frontend/base/default/template/page/html/head_script_less.phtml
+```
 
 ```php
 // in head_script_less.phtml
